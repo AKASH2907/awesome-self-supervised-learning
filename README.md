@@ -44,6 +44,10 @@ Markdown format:
 
 ## Computer Vision
 ### Survey
+- A Survey on Contrastive Self-supervised Learning
+  [[pdf]](https://arxiv.org/pdf/2011.00362.pdf)
+  - Ashish Jaiswal, Ashwin R Babu, Mohammad Z Zadeh, Debapriya Banerjee, Fillia Makedon
+
 - Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey.
   [[pdf]](https://arxiv.org/pdf/1902.06162.pdf)
   - Longlong Jing and Yingli Tian. *T-PAMI 2020*
@@ -367,7 +371,7 @@ FAIR Self-Supervision Benchmark [[repo]](https://github.com/facebookresearch/fai
  - A Simple Framework for Contrastive Learning of Visual Representations
     [[pdf]](https://arxiv.org/abs/2002.05709)
     [[code]](https://github.com/google-research/simclr)
-    - Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton
+    - Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton. *ICML 2020*
    
  - How Useful is Self-Supervised Pretraining for Visual Tasks?
     [[pdf]](https://arxiv.org/abs/2003.14323)
@@ -390,12 +394,12 @@ FAIR Self-Supervision Benchmark [[repo]](https://github.com/facebookresearch/fai
 - Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning
     [[pdf]](https://arxiv.org/abs/2006.07733)
     [[unofficial-code]](https://github.com/lucidrains/byol-pytorch)
-    - Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila Pires, Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko.
+    - Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila Pires, Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko. *NeurIPS 2020, Oral*
     
  - Big Self-Supervised Models are Strong Semi-Supervised Learners
     [[pdf]](https://arxiv.org/abs/2006.10029)
     [[code]](https://github.com/google-research/simclr)
-    - Ting Chen, Simon Kornblith, Kevin Swersky, Mohammad Norouzi, Geoffrey Hinton
+    - Ting Chen, Simon Kornblith, Kevin Swersky, Mohammad Norouzi, Geoffrey Hinton. *NeurIPS 2020*
     
  - Self-Supervised Prototypical Transfer Learning for Few-Shot Classification
     [[pdf]](https://arxiv.org/pdf/2006.11325.pdf)
@@ -410,7 +414,22 @@ FAIR Self-Supervision Benchmark [[repo]](https://github.com/facebookresearch/fai
  - Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
     [[pdf]](https://arxiv.org/abs/2006.09882)
     [[code]](https://github.com/facebookresearch/swav)
-    - Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin
+    - Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin. *NeurIPS 2020*
+    
+ - Self-Supervised Relational Reasoning for Representation Learning
+    [[pdf]](https://arxiv.org/pdf/2006.05849.pdf)
+    [[code]](https://github.com/mpatacchiola/self-supervised-relational-reasoning)
+    - Massimiliano Patacchiola, Amos Storkey. *NeurIPS 2020, Spotlight*
+
+ - Exploring Simple Siamese Representation Learning
+    [[pdf]](https://arxiv.org/pdf/2011.10566)
+    [[unofficial-code]](https://github.com/PatrickHua/SimSiam)
+    - Xinlei Chen, Kaiming He
+
+ - Online Bag-of-Visual-Words Generation for Unsupervised Representation Learning
+    [[pdf]](https://arxiv.org/pdf/2012.11552)
+    [[code]](https://github.com/valeoai/obow)
+    - Spyros Gidaris, Andrei Bursuc, Gilles Puy, Nikos Komodakis, Matthieu Cord, Patrick Pérez
 
 ### Video Representation Learning
 
@@ -490,6 +509,52 @@ FAIR Self-Supervision Benchmark [[repo]](https://github.com/facebookresearch/fai
   [[code]](https://github.com/sjenni/temporal-ssl)
   - Simon Jenni, Givi Meishvili, Paolo Favaro. *ECCV 2020*
   
+- Self-supervised Co-training for Video Representation Learning
+  [[pdf]](https://arxiv.org/pdf/2010.09709)
+  [[code]](https://github.com/TengdaHan/CoCLR)
+  - Tengda Han, Weidi Xie, and Andrew Zisserman. *NeurIPS 2020*
+
+- Cycle-Contrast for Self-Supervised Video Representation Learning
+  [[pdf]](https://arxiv.org/pdf/2010.14810)
+  - Quan Kong, Wenpeng Wei, Ziwei Deng, Tomoaki Yoshinaga, and Tomokazu Murakami. *NeurIPS 2020*
+
+- Video Representation Learning with Visual Tempo Consistency
+  [[pdf]](https://arxiv.org/pdf/2006.15489)
+  [[code]](https://github.com/decisionforce/VTHCL)
+  - Ceyuan Yang, Yinghao Xu, Bo Dai, and Bolei Zhou
+
+- Self-supervised Video Representation Learning by Uncovering Spatio-temporal Statistics
+  [[pdf]](https://arxiv.org/pdf/2008.13426)
+  - Jiangliu Wang, Jianbo Jiao, Linchao Bao, Shengfeng He, Wei Liu, and Yun-hui Liu
+
+- Spatiotemporal Contrastive Video Representation Learning
+  [[pdf]](https://arxiv.org/pdf/2008.03800)
+  - Rui Qian, Tianjian Meng, Boqing Gong, Ming-Hsuan Yang, Huisheng Wang, Serge Belongie, and Yin Cui
+
+- Self-Supervised Video Representation Using Pretext-Contrastive Learning
+  [[pdf]](https://arxiv.org/pdf/2010.15464)
+  - Li Tao, Xueting Wang, and Toshihiko Yamasaki
+
+- Unsupervised Video Representation Learning by Bidirectional Feature Prediction
+  [[pdf]](https://arxiv.org/pdf/2011.06037)
+  - Nadine Behrmann, Juergen Gall, and Mehdi Noroozi
+
+- RSPNet: Relative Speed Perception for Unsupervised Video Representation Learning
+  [[pdf]](https://arxiv.org/pdf/2011.07949)
+  - Peihao Chen, Deng Huang, Dongliang He, Xiang Long, Runhao Zeng, Shilei Wen, Mingkui Tan, and Chuang Gan
+
+- Hierarchically Decoupled Spatial-Temporal Contrast for Self-supervised Video Representation Learning
+  [[pdf]](https://arxiv.org/pdf/2011.11261)
+  - Zehua Zhang and David Crandall
+
+- Can Temporal Information Help with Contrastive Self-Supervised Learning?
+  [[pdf]](https://arxiv.org/pdf/2011.13046)
+  - Yutong Bai, Haoqi Fan, Ishan Misra, Ganesh Venkatesh, Yongyi Lu, Yuyin Zhou, Qihang Yu, Vikas Chandra, and Alan Yuille
+
+- Enhancing Unsupervised Video Representation Learning by Decoupling the Scene and the Motion
+  [[pdf]](https://arxiv.org/pdf/2009.05757)
+  [[code]](https://github.com/FingerRec/DSM-decoupling-scene-motion)
+  - Jinpeng Wang, Yuting Gao, Ke Li, Jianguo Hu, Xinyang Jiang, Xiaowei Guo, Rongrong Ji, and Xing Sun. *AAAI 2021*
 
 ### Geometry
 - Unsupervised CNN for Single View Depth Estimation: Geometry to the Rescue.
@@ -903,6 +968,11 @@ FAIR Self-Supervision Benchmark [[repo]](https://github.com/facebookresearch/fai
    - Abhinav Shukla, Konstantinos Vougioukas, Pingchuan Ma, Stavros Petridis, Maja Pantic
 
 ## Graph
+ - Deep Graph Infomax
+   [[pdf]](https://openreview.net/forum?id=rklz9iAcKQ)
+   [[code]](https://github.com/PetarV-/DGI)
+   - Petar Veličković, William Fedus, William L. Hamilton, Pietro Liò, Yoshua Bengio, R Devon Hjelm. *ICLR 2019*
+ 
  - When Does Self-Supervision Help Graph Convolutional Networks
    [[pdf]](https://arxiv.org/pdf/2006.09136.pdf)
    - Yuning You, Tianlong Chen, Zhangyang Wang, Yang Shen. *ICML 2020*
@@ -914,6 +984,11 @@ FAIR Self-Supervision Benchmark [[repo]](https://github.com/facebookresearch/fai
  - Gaining insight into SARS-CoV-2 infection and COVID-19 severity using self-supervised edge features and Graph Neural Networks
     [[pdf]](https://arxiv.org/pdf/2006.12971v1.pdf)
    - Arijit Sehanobish, Neal G. Ravindra, David van Dijk. *ICML 2020 Workshop*
+   
+ - Deep Graph Contrastive Representation Learning
+    [[pdf]](http://arxiv.org/abs/2006.04131)
+    [[code]](https://github.com/CRIPAC-DIG/GRACE)
+   - Yanqiao Zhu, Yichen Xu, Feng Yu, Qiang Liu, Shu Wu, Liang Wang. *ICML 2020 Workshop*
    
  - Contrastive Multi-View Representation Learning on Graphs
     [[pdf]](https://arxiv.org/pdf/2006.05582)
